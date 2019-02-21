@@ -3,33 +3,118 @@
 <head>
 
 <style>
-
-.navbar {
-	padding: 50px 30px 10px 30px;
-	background-color: white;
-
+@import "http://fonts.googleapis.com/css?family=Open+Sans";
+div {
+	font-family: "Open Sans", sans-serif;
 }
-.top-left {
-	float:left;
-	}
+h1 {
+	font-size: 45px;
+	margin: 0px;
+}
+h2 {
+	font-size: 38px;
+	color: white;
+}
+p {
+	font-size: 19px;
+	line-height: 35px;
+	margin: 30px 0px 0px 0px;
+}
+a {
+	text-decoration: none;
+	color:black;
+}
+a:hover {
+	color: grey;
+}
+input {
+	font-size: 30px;
+	width: 200px;
+}
+.heart {
+	padding-right: 20px;
+}
+.navbar {
+	font-size: 13px;
+	font-weight: 1000;
+	margin: 0px;
+	padding: 3px 30px 5px 30px;
+	background-color: white;
+}
 .top-links {
 	list-style-type: none;
+	display: inline;
 }
 .top-nav {
 	float: right;
-	padding: 8px;
+	padding: 0px 15px 0px 0px;
 	}
+.line{
+     border-top:1px solid #EFF0F1;
+     width:100%
+}
+.logo {
+	padding: 0px 0px 0px 16px;
+}
+#searchbar {
+	position: relative;
+	bottom: 8px;
+	display: inline;
+}
+.login {
+	display: inline;
+	float: right;
+	font-size: 15px;
+	font-weight: 1000;
+	position: relative;
+	bottom: 24px;
+	padding-right: 40px;
+}
 .box1  {
-	padding: 150px 500px 100px 100px;
-	background-color: #035A7C;
 	color: white;
-	font-family: sans-serif;
-
+	background: url(city-scape.svg);
+	background-size: 1600px 510px;
+	background-repeat: no-repeat;
+	padding: 80px 0px 88px 0px;
+	margin: 0px -10px 0px -10px;
 	}
+.box1-heading {
+	padding-left: 200px;
+}
+.box1-p {
+	padding: 0px 650px 0px 200px;
+}
+.box1-sign {
+	padding-left: 200px;
+}
+.button1 {
+	margin: 20px 0px 0px 200px;	
+    background-color: #F2A339;
+    border: none;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 40px;
+    font-family: "Open Sans", sans-serif;
+}
+.button1:hover {
+    background-color: #72B243;
+}
 .box2 {
-	padding: 150px 500px 100px 100px;
-	background-color: #233448;
-	color: white;
+	background-color: #313131;
+	margin: -8px;
+	background-size: 1600px 510px;
+}
+.image2 {
+	height: 350px;
+	padding: 200px 0px 30px 200px;
+	float: left;
+}
+.box2-heading {
+	display: inline;
+	padding: 200px 0px 0px 10px;
 }
 
 </style>
@@ -40,12 +125,10 @@
   <title>npm</title>
 </head>
 <body>
-</body>
+<div>
 <nav class="navbar">
-  <div class="top-left">
     <a class = "heart" href="#">♥︎</a>
     <span class="acronym">Neophobe Plebeian Mumpsimus</span>
-   </div>
   <ul class="top-links">
     <li class="top-nav"><a href="#">npm Enterprise</a></li>
     <li class="top-nav"><a href="#">features</a></li>
@@ -54,18 +137,30 @@
     <li class="top-nav"><a href="#">support</a></li>
   </ul>
 </nav>
+</div>
+<div class="line"></div>
+<div>
+ 	<img class="logo" src="npm.png" alt="npm">
+    <form id="searchbar">
+      <input type="search" name="search" placeholder="Search packages">
+      <input type="submit" name="submit" value="Go!">
+    </form>
+    <p class="login">
+    	<a class="login1" href="#">log in</a> or <a class="login1" href="#">sign up</a>
+    </p>
+</div>
 <section>
 <div class="box1">
-	<h1>Build amazing things</h1>
-	<img src="http://www.w3.org/2000/svg">
-	<p>npm is the package manager for JavaScript and the world’s largest software registry. Discover packages of reusable code — and assemble them in powerful new ways.</p>
-	<a href="#">Sign up</a>
+	<h1 class="box1-heading">Build amazing </br><h1 class="box1-heading">things</h1>
+	<p class="box1-p">npm is the package manager for JavaScript and the world’s largest software registry. Discover packages of reusable code — and assemble them in powerful new ways.</p>
+	<button class="button1" type="button">Sign up for npm</button>
 </div>
 </section>
 <div class="box2">
 <section>
-	<h1>npm Orgs is powerful collaboration — for free
-</h1>
+	<img class="image2" src="collaboration.svg" alt="friends">
+	<h2 class="box2-heading">npm Orgs is powerful collaboration — for free
+</h2>
 	<ul>
 		<li>Encourage code discovery and re-use within teams</li>
 		<li>Publish and control access to your own namespace</li>
@@ -75,21 +170,21 @@
 	</ul>
 </section>
 </div>
+<div>
 <section>
 	<h1>What is npm?</h1>
 	<p>Use npm to install, share, and distribute code; manage dependencies in your projects; and share & receive feedback with others.</p>
 	<a href="#">Install npm</a>
 </section>
+</div>
+<div>
 <section>
 	<h1>What can you make with 800,000 building blocks?</h1>
 	<p>The npm registry hosts the world’s largest collection of free, reusable code.</p>
 
 
 </section>
-
-
-
-
+</div>
 
 
   <!-- Your code goes here -->
