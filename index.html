@@ -56,19 +56,18 @@ input {
 .logo {
 	padding: 0px 0px 0px 16px;
 }
-#searchbar {
-	position: relative;
-	bottom: 8px;
+.searchbar {
 	display: inline;
+	bottom: 8px;
 }
 .login {
 	display: inline;
 	float: right;
 	font-size: 15px;
 	font-weight: 1000;
-	position: relative;
 	bottom: 24px;
 	padding-right: 40px;
+	position: relative;
 }
 .box1  {
 	color: white;
@@ -106,15 +105,27 @@ input {
 	background-color: #313131;
 	margin: -8px;
 	background-size: 1600px 510px;
+	z-index: -1;
 }
 .image2 {
 	height: 350px;
-	padding: 200px 0px 30px 200px;
-	float: left;
+	padding: 150px 0px 150px 160px;
 }
 .box2-heading {
 	display: inline;
-	padding: 200px 0px 0px 10px;
+	float: right;
+	position: relative;
+	bottom: 530px;
+	padding-right: 150px;
+	padding-left: 800px;
+}
+.box2-list { 
+	display: inline;
+	float: right;
+	position: relative;
+	bottom: 530px;
+	padding-right: 150px;
+	padding-left: 800px;
 }
 
 </style>
@@ -141,7 +152,7 @@ input {
 <div class="line"></div>
 <div>
  	<img class="logo" src="npm.png" alt="npm">
-    <form id="searchbar">
+    <form class="searchbar">
       <input type="search" name="search" placeholder="Search packages">
       <input type="submit" name="submit" value="Go!">
     </form>
@@ -157,19 +168,20 @@ input {
 </div>
 </section>
 <div class="box2">
-<section>
 	<img class="image2" src="collaboration.svg" alt="friends">
+</div>
+<div>
 	<h2 class="box2-heading">npm Orgs is powerful collaboration — for free
 </h2>
-	<ul>
+	<ul class="box2-list">
 		<li>Encourage code discovery and re-use within teams</li>
 		<li>Publish and control access to your own namespace</li>
 		<li>Manage public and private code with the same workflow</li>
 			<a href="#">Sign up for Orgs</a>
 			Or <a href="#">Learn more about Orgs</a>
 	</ul>
-</section>
 </div>
+</section>
 <div>
 <section>
 	<h1>What is npm?</h1>
