@@ -10,6 +10,7 @@ div {
 h1 {
 	font-size: 45px;
 	margin: 0px;
+	color: white;
 }
 h2 {
 	font-size: 38px;
@@ -19,6 +20,7 @@ p {
 	font-size: 19px;
 	line-height: 35px;
 	margin: 30px 0px 0px 0px;
+	color: white;
 }
 a {
 	text-decoration: none;
@@ -109,13 +111,13 @@ input {
 }
 .image2 {
 	height: 350px;
-	padding: 150px 0px 150px 160px;
+	padding: 150px 0px 210px 160px;
 }
 .box2-heading {
 	display: inline;
 	float: right;
 	position: relative;
-	bottom: 530px;
+	bottom: 610px;
 	padding-right: 150px;
 	padding-left: 800px;
 }
@@ -123,10 +125,79 @@ input {
 	display: inline;
 	float: right;
 	position: relative;
-	bottom: 530px;
+	bottom: 630px;
 	padding-right: 150px;
-	padding-left: 800px;
+	padding-left: 850px;
+	color: white;
+	line-height: 20px;
 }
+.button2 {
+	display: inline;
+	float: right;
+	position: relative;
+	bottom: 630px;
+	right: 200px;
+	margin: 20px 0px 0px 0px;	
+    background-color: #99271E;
+    border: none;
+    color: white;
+    padding: 13px 80px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 40px;
+    font-family: "Open Sans", sans-serif;
+}
+.button2:hover {
+    background-color: #72B243;
+}
+.link2 {
+	display: inline;
+	float: right;
+	position: relative;
+	bottom: 570px;
+	left: 70px;
+	color: white;
+}
+.link-text {
+	color:white;
+}
+.box3 {
+	background: url(forklift.svg);
+	margin: -45px -10px 0px -10px;
+	z-index: -1;
+}
+.box3-heading {
+	display: inline;
+	float: right;
+	position: relative;
+	bottom: 230px;
+	right: 400px;
+}
+.box3-text {
+	position: relative;
+	bottom: 150px;
+	left: 130px;
+}
+.button3 {
+	display: inline;
+	float: left;
+	position: relative;
+	bottom: 150px;
+	left: 150px;
+	margin: 20px 0px 0px 0px;	
+    background-color: #484A49;
+    border: none;
+    color: white;
+    padding: 13px 80px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 40px;
+    font-family: "Open Sans", sans-serif;
+}
+.button3:hover {
+    background-color: #72B243;
 
 </style>
 
@@ -175,30 +246,20 @@ input {
 </h2>
 	<ul class="box2-list">
 		<li>Encourage code discovery and re-use within teams</li>
+	</br>
 		<li>Publish and control access to your own namespace</li>
+	</br>
 		<li>Manage public and private code with the same workflow</li>
-			<a href="#">Sign up for Orgs</a>
-			Or <a href="#">Learn more about Orgs</a>
 	</ul>
-</div>
+<button class="button2" type="button">Sign up for Orgs</button></br>
+<p class="link2">
+	Or <a class="link-text" href="#">Learn more about Orgs</a>
+</p>
 </section>
-<div>
-<section>
-	<h1>What is npm?</h1>
-	<p>Use npm to install, share, and distribute code; manage dependencies in your projects; and share & receive feedback with others.</p>
-	<a href="#">Install npm</a>
-</section>
-</div>
-<div>
-<section>
-	<h1>What can you make with 800,000 building blocks?</h1>
-	<p>The npm registry hosts the world’s largest collection of free, reusable code.</p>
-
-
-</section>
-</div>
-
-
+<div class="box3">
+	<h1 class="box3-heading">What is npm?</h1>
+	<p class="box3-text">Use npm to install, share, and distribute code; manage dependencies in your projects; and share & receive feedback with others.</p>
+	<button class="button3" type="button">Install npm</button></br>
   <!-- Your code goes here -->
 </body>
 </html>
