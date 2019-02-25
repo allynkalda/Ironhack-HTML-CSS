@@ -1,0 +1,196 @@
+@import "http://fonts.googleapis.com/css?family=Open+Sans";
+
+div {
+	font-family: "Open Sans", sans-serif;
+}
+h1 {
+	font-size: 45px;
+	margin: 0px;
+	color: white;
+}
+h2 {
+	font-size: 38px;
+	color: white;
+}
+p {
+	font-size: 19px;
+	line-height: 35px;
+	margin: 30px 0px 0px 0px;
+	color: white;
+}
+a {
+	text-decoration: none;
+	color:black;
+}
+a:hover {
+	color: grey;
+}
+input {
+	font-size: 30px;
+	width: 200px;
+}
+.heart {
+	padding-right: 20px;
+}
+.navbar {
+	font-size: 13px;
+	font-weight: 1000;
+	margin: 0px;
+	padding: 3px 30px 5px 30px;
+	background-color: white;
+}
+.top-links {
+	list-style-type: none;
+	display: inline;
+}
+.top-nav {
+	float: right;
+	padding: 0px 15px 0px 0px;
+	}
+.line{
+     border-top:1px solid #EFF0F1;
+     width:100%
+}
+.logo {
+	padding: 0px 0px 0px 16px;
+}
+.searchbar {
+	display: inline;
+	bottom: 8px;
+}
+.login {
+	display: inline;
+	float: right;
+	font-size: 15px;
+	font-weight: 1000;
+	bottom: 24px;
+	padding-right: 40px;
+	position: relative;
+}
+.box1  {
+	color: white;
+	background: url(city-scape.svg);
+	background-size: 1600px 510px;
+	background-repeat: no-repeat;
+	padding: 80px 0px 88px 0px;
+	margin: 0px -10px 0px -10px;
+	}
+.box1-heading {
+	padding-left: 200px;
+}
+.box1-p {
+	padding: 0px 650px 0px 200px;
+}
+.box1-sign {
+	padding-left: 200px;
+}
+.button1 {
+	margin: 20px 0px 0px 200px;	
+    background-color: #F2A339;
+    border: none;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 40px;
+    font-family: "Open Sans", sans-serif;
+}
+.button1:hover {
+    background-color: #72B243;
+}
+.box2 {
+	background-color: #313131;
+	margin: -8px;
+	background-size: 1600px 510px;
+	z-index: -1;
+}
+.image2 {
+	height: 350px;
+	padding: 150px 0px 210px 160px;
+}
+.box2-heading {
+	display: inline;
+	float: right;
+	position: relative;
+	bottom: 610px;
+	padding-right: 150px;
+	padding-left: 800px;
+}
+.box2-list { 
+	display: inline;
+	float: right;
+	position: relative;
+	bottom: 630px;
+	padding-right: 150px;
+	padding-left: 850px;
+	color: white;
+	line-height: 20px;
+}
+.button2 {
+	display: inline;
+	float: right;
+	position: relative;
+	bottom: 630px;
+	right: 200px;
+	margin: 20px 0px 0px 0px;	
+    background-color: #99271E;
+    border: none;
+    color: white;
+    padding: 13px 80px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 40px;
+    font-family: "Open Sans", sans-serif;
+}
+.button2:hover {
+    background-color: #72B243;
+}
+.link2 {
+	display: inline;
+	float: right;
+	position: relative;
+	bottom: 570px;
+	left: 70px;
+	color: white;
+}
+.link-text {
+	color:white;
+}
+.box3 {
+	background: url(forklift.svg);
+	margin: -45px -10px 0px -10px;
+	z-index: -1;
+}
+.box3-heading {
+	display: inline;
+	float: right;
+	position: relative;
+	bottom: 230px;
+	right: 400px;
+}
+.box3-text {
+	position: relative;
+	bottom: 150px;
+	left: 130px;
+}
+.button3 {
+	display: inline;
+	float: left;
+	position: relative;
+	bottom: 150px;
+	left: 150px;
+	margin: 20px 0px 0px 0px;	
+    background-color: #484A49;
+    border: none;
+    color: white;
+    padding: 13px 80px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 40px;
+    font-family: "Open Sans", sans-serif;
+}
+.button3:hover {
+    background-color: #72B243;
