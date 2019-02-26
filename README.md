@@ -1,2 +1,3 @@
 # Ironhack-HTML-CSS
-Copying NPM website with HTML and CSS. See here: https://allynkalda.github.io/Ironhack-HTML-CSS/
+Exercise in copying NPM landing page with HTML and CSS. </br>
+See <a href="https://allynkalda.github.io/Ironhack-HTML-CSS/">here</a>.
