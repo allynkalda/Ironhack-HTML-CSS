@@ -12,7 +12,7 @@ h2 {
 	font-size: 38px;
 	color: white;
 }
-p {
+span, p {
 	font-size: 19px;
 	line-height: 35px;
 	margin: 30px 0px 0px 0px;
@@ -33,6 +33,7 @@ input {
 	padding-right: 20px;
 }
 .navbar {
+	font-family: "Open Sans", sans-serif;
 	font-size: 13px;
 	font-weight: 1000;
 	margin: 0px;
@@ -56,24 +57,37 @@ input {
 }
 .searchbar {
 	display: inline;
+	position: relative;
 	bottom: 8px;
+}
+.search {
+	box-sizing: border-box; 
+	width: 25%;
+	height: 30px; 
+}
+.button0 {
+	height: 30px;
+	position: relative;
+	bottom: 7px;
+	background-color: #CB3837;
+	border-color: #a5a4a4;
 }
 .login {
 	display: inline;
-	float: right;
 	font-size: 15px;
-	font-weight: 1000;
-	bottom: 24px;
+	bottom: 20px;
 	padding-right: 40px;
 	position: relative;
+	float: right;
 }
 .box1  {
 	color: white;
 	background: url(city-scape.svg);
-	background-size: 1600px 510px;
+	background-size: 100%;
 	background-repeat: no-repeat;
-	padding: 80px 0px 88px 0px;
+	padding: 100px 0px 100px 0px;
 	margin: 0px -10px 0px -10px;
+	position: relative;
 	}
 .box1-heading {
 	padding-left: 200px;
@@ -101,9 +115,9 @@ input {
 }
 .box2 {
 	background-color: #313131;
-	margin: -8px;
-	background-size: 1600px 510px;
-	z-index: -1;
+	margin: -25px -10px 0px -10px;
+	background-size: 100%;
+	position: relative;
 }
 .image2 {
 	height: 350px;
@@ -148,6 +162,7 @@ input {
     background-color: #72B243;
 }
 .link2 {
+	font-size: 18px;
 	display: inline;
 	float: right;
 	position: relative;
@@ -159,38 +174,76 @@ input {
 	color:white;
 }
 .box3 {
+	background-repeat: no-repeat;
 	background: url(forklift.svg);
-	margin: -45px -10px 0px -10px;
-	z-index: -1;
+	margin: -25px -10px 0px -10px;
+	height: 550px;
+	position: relative;
 }
 .box3-heading {
-	display: inline;
-	float: right;
+	padding-left: 200px;
 	position: relative;
-	bottom: 230px;
-	right: 400px;
+	bottom: 250px;
 }
 .box3-text {
+	padding: 0px 650px 0px 200px;
 	position: relative;
-	bottom: 150px;
-	left: 130px;
+	bottom: 240px;
 }
 .button3 {
-	display: inline;
-	float: left;
-	position: relative;
-	bottom: 150px;
-	left: 150px;
-	margin: 20px 0px 0px 0px;	
-    background-color: #484A49;
+	margin: 30px 0px 0px 200px;	
+    background-color: #F2A339;
     border: none;
     color: white;
-    padding: 13px 80px;
+    padding: 15px 50px;
     text-align: center;
     font-size: 20px;
     cursor: pointer;
     border-radius: 40px;
     font-family: "Open Sans", sans-serif;
+    position: relative;
+	bottom: 240px;
 }
 .button3:hover {
     background-color: #72B243;
+}
+.column {
+  float: left;
+  width: 33.33%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.box4 {
+	background-color: white;
+	position: relative;
+}
+.box4-heading {
+	color: #33373A;
+	font-size: 30px;
+	text-align: center;
+	margin-top: -50px;
+}
+.box4-text {
+	color: #33373A;
+	text-align: center;
+}
+.title-icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.box-title {
+	color: #33373A;
+	display: block;
+	text-align: center;
+}
+.title-text {
+	color: #33373A;	
+	display: block;
+	text-align: center;
+	padding: 0px 50px 100px 50px;
+}
